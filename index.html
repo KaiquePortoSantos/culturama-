@@ -126,9 +126,10 @@
                 <br>
 
                 <label for="musicStyle"> Estilo musical </label>
-                <input list="stylesTypes" type="text" id="musicStyle" name="userMusicStyle" placeholder="Digite seu estilo musical preferido" required >
+                <input list="stylesTypes" type="text" id="musicStyle" name="userMusicStyle" placeholder="Digite seu estilo musical " required >
 
                 <datalist id="stylesTypes"> 
+                    
                     <option value="Pop"> Pop </option>
                     <option value="Rock"> Rock </option>
                     <option value="Sertanejo"> Sertanejo </option>
@@ -146,6 +147,11 @@
                     <option value="Indie/Alternativa"> Indie/Alternativa </option>
 
                 </datalist>
+
+                <br>
+
+                <label for="favoritColor"> Cor favorita: </label>
+                <input type="color" id="color" name="userfavoritColor" value="#000000" required >
             </fieldset>
             
 
